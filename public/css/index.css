@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+}
+
+nav p, .checkout {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+}
+
+.checkout {
+    color: black;
+}
+
+.Menu {
+    text-align: center;
+}
+
+.row h4, .row p {
+    text-align: center;
+}
+
+.order {
+    position: absolute;
+    right: 250px;
+}
