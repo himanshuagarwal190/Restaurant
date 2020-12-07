@@ -51,7 +51,7 @@ app.post('/api/updateitem', (req, res) =>{
             res.send('Error Updating')
         }
         else{
-            res.send(data)
+            res.send('Updated successfully')
         }
     })
 })
