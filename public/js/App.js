@@ -10,7 +10,7 @@ class Items extends React.Component{
              total: Number(localStorage.getItem('total')) || 0}
 
     componentDidMount(){
-        axios.get('http://localhost:3000/api/viewitems')
+        axios.get('https://my-online-restaurant.herokuapp.com/api/viewitems')
             .then((response)=> {
                 this.setState({
                     items: response.data
